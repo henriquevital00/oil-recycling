@@ -486,13 +486,64 @@
 											"height": 13,
 											"text": "+AprovarAlterações()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF86CjYbu57EVA=",
+											"_parent": {
+												"$ref": "AAAAAAF8xA5+TDZwgBs="
+											},
+											"model": {
+												"$ref": "AAAAAAF86CjYYe54fTo="
+											},
+											"font": "Arial;13;0",
+											"left": 341,
+											"top": 628,
+											"width": 196.91064453125,
+											"height": 13,
+											"text": "+CadastrarNívelSubstâncias()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF86CkTc+6C+48=",
+											"_parent": {
+												"$ref": "AAAAAAF8xA5+TDZwgBs="
+											},
+											"model": {
+												"$ref": "AAAAAAF86CkTaO5/S90="
+											},
+											"font": "Arial;13;0",
+											"left": 341,
+											"top": 643,
+											"width": 196.91064453125,
+											"height": 13,
+											"text": "+VerificarNívelSubstâncias()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF86Cks0+6JwYw=",
+											"_parent": {
+												"$ref": "AAAAAAF8xA5+TDZwgBs="
+											},
+											"model": {
+												"$ref": "AAAAAAF86Cksze6G/Ng="
+											},
+											"font": "Arial;13;0",
+											"left": 341,
+											"top": 658,
+											"width": 196.91064453125,
+											"height": 13,
+											"text": "+AbrirVálvulas()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 336,
 									"top": 563,
 									"width": 206.91064453125,
-									"height": 68
+									"height": 113
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -3359,7 +3410,7 @@
 							}
 						}
 					],
-					"documentation": "Esta classe representa a entidade do operador.\n\nMétodos:\n\n- Abastecer(): Ato do operador abastecer algum componente envolvido no sistema.\n\n- AlterarValoresEntrega(): Ato do operador de modificar o  valor de entrega máximo/mínimo  de algum componente envolvido no sistema.\n\n- AlterarVazão(): Ato do operador de modificar o valor máximo/mínimo de vazão de algum componente envolvido no sistema.\n\n- AprovarAlterações(): Ato do operador de aprovar o relatório com as alterações informadas",
+					"documentation": "Esta classe representa a entidade do operador.\n\nMétodos:\n\n- Abastecer(): Ato do operador abastecer algum componente envolvido no sistema.\n\n- AlterarValoresEntrega(): Ato do operador de modificar o  valor de entrega máximo/mínimo  de algum componente envolvido no sistema.\n\n- AlterarVazão(): Ato do operador de modificar o valor máximo/mínimo de vazão de algum componente envolvido no sistema.\n\n- AprovarAlterações(): Ato do operador de aprovar o relatório com as alterações informadas\n\n- CadastrarNívelSubstâncias(): Ato do operador de cadastrar o nível final das substâncias.\n\n- VerificarNívelSubstâncias(): Ato do operador de verificar o nível final das substâncias\n\n- AbrirVálvulas(): Ato do operador de abrir as válvulas.",
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -3392,6 +3443,30 @@
 								"$ref": "AAAAAAF8xA5+SzZnvVA="
 							},
 							"name": "AprovarAlterações"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF86CjYYe54fTo=",
+							"_parent": {
+								"$ref": "AAAAAAF8xA5+SzZnvVA="
+							},
+							"name": "CadastrarNívelSubstâncias"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF86CkTaO5/S90=",
+							"_parent": {
+								"$ref": "AAAAAAF8xA5+SzZnvVA="
+							},
+							"name": "VerificarNívelSubstâncias"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF86Cksze6G/Ng=",
+							"_parent": {
+								"$ref": "AAAAAAF8xA5+SzZnvVA="
+							},
+							"name": "AbrirVálvulas"
 						}
 					]
 				},
