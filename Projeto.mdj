@@ -8792,14 +8792,6 @@
 				},
 				{
 					"_type": "UMLActor",
-					"_id": "AAAAAAF83iFZ1lpJbEE=",
-					"_parent": {
-						"$ref": "AAAAAAF83hrQeVpCeNs="
-					},
-					"name": "Actor1"
-				},
-				{
-					"_type": "UMLActor",
 					"_id": "AAAAAAF83iIDPlqNO+A=",
 					"_parent": {
 						"$ref": "AAAAAAF83hrQeVpCeNs="
