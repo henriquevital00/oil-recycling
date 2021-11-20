@@ -504,6 +504,23 @@
 										},
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAF9PhumsuL6nXk=",
+											"_parent": {
+												"$ref": "AAAAAAF8xA5+TDZwgBs="
+											},
+											"model": {
+												"$ref": "AAAAAAF9PhumneL3eKA="
+											},
+											"font": "Arial;13;0",
+											"left": 341,
+											"top": 658,
+											"width": 196.91064453125,
+											"height": 13,
+											"text": "+VerificarNivelEntregas()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAF86Cks0+6JwYw=",
 											"_parent": {
 												"$ref": "AAAAAAF8xA5+TDZwgBs="
@@ -513,7 +530,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 341,
-											"top": 658,
+											"top": 673,
 											"width": 196.91064453125,
 											"height": 13,
 											"text": "+AbrirVálvulas()",
@@ -524,7 +541,7 @@
 									"left": 336,
 									"top": 563,
 									"width": 206.91064453125,
-									"height": 113
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2493,13 +2510,47 @@
 											"height": 13,
 											"text": "+AprovarRelatório()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF9Phr6xN1EKFA=",
+											"_parent": {
+												"$ref": "AAAAAAF83ha1aljgSZ8="
+											},
+											"model": {
+												"$ref": "AAAAAAF9Phr6rt1B8+0="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 367,
+											"width": 175,
+											"height": 13,
+											"text": "+VerificarNívelSubstâncias()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF9PhwJ5+MCerE=",
+											"_parent": {
+												"$ref": "AAAAAAF83ha1aljgSZ8="
+											},
+											"model": {
+												"$ref": "AAAAAAF9PhwJ3eL/ju0="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 382,
+											"width": 175,
+											"height": 13,
+											"text": "+VerificarNivelEntregas()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 48,
 									"top": 347,
 									"width": 185,
-									"height": 23
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2651,96 +2702,96 @@
 						},
 						{
 							"_type": "UMLDependencyView",
-							"_id": "AAAAAAF83jmyr59BMZM=",
+							"_id": "AAAAAAF9Phza1uMQLmM=",
 							"_parent": {
 								"$ref": "AAAAAAF8w+xZsPFc99w="
 							},
 							"model": {
-								"$ref": "AAAAAAF83jmyrp8/DHA="
+								"$ref": "AAAAAAF9Phza1uMOBs4="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF83jmyr59CpLM=",
+									"_id": "AAAAAAF9Phza1uMROfA=",
 									"_parent": {
-										"$ref": "AAAAAAF83jmyr59BMZM="
+										"$ref": "AAAAAAF9Phza1uMQLmM="
 									},
 									"model": {
-										"$ref": "AAAAAAF83jmyrp8/DHA="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 650,
-									"top": 629,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAF83jmyr59BMZM="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF83jmyr59D06A=",
-									"_parent": {
-										"$ref": "AAAAAAF83jmyr59BMZM="
-									},
-									"model": {
-										"$ref": "AAAAAAF83jmyrp8/DHA="
-									},
-									"visible": null,
-									"font": "Arial;13;0",
-									"left": 650,
-									"top": 644,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAF83jmyr59BMZM="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF83jmyr59EY8s=",
-									"_parent": {
-										"$ref": "AAAAAAF83jmyr59BMZM="
-									},
-									"model": {
-										"$ref": "AAAAAAF83jmyrp8/DHA="
+										"$ref": "AAAAAAF9Phza1uMOBs4="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 651,
 									"top": 599,
 									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF9Phza1uMQLmM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF9Phza1uMSZW8=",
+									"_parent": {
+										"$ref": "AAAAAAF9Phza1uMQLmM="
+									},
+									"model": {
+										"$ref": "AAAAAAF9Phza1uMOBs4="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 651,
+									"top": 584,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF9Phza1uMQLmM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF9Phza1uMTtiw=",
+									"_parent": {
+										"$ref": "AAAAAAF9Phza1uMQLmM="
+									},
+									"model": {
+										"$ref": "AAAAAAF9Phza1uMOBs4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 651,
+									"top": 629,
+									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF83jmyr59BMZM="
+										"$ref": "AAAAAAF9Phza1uMQLmM="
 									},
 									"edgePosition": 1
 								}
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAF8xA5+TDZpIlw="
-							},
-							"tail": {
 								"$ref": "AAAAAAF8w+19LQErN8I="
 							},
+							"tail": {
+								"$ref": "AAAAAAF8xA5+TDZpIlw="
+							},
 							"lineStyle": 1,
-							"points": "759:620;543:620",
+							"points": "543:620;759:620",
 							"showVisibility": true,
 							"nameLabel": {
-								"$ref": "AAAAAAF83jmyr59CpLM="
+								"$ref": "AAAAAAF9Phza1uMROfA="
 							},
 							"stereotypeLabel": {
-								"$ref": "AAAAAAF83jmyr59D06A="
+								"$ref": "AAAAAAF9Phza1uMSZW8="
 							},
 							"propertyLabel": {
-								"$ref": "AAAAAAF83jmyr59EY8s="
+								"$ref": "AAAAAAF9Phza1uMTtiw="
 							}
 						}
 					]
@@ -2781,7 +2832,7 @@
 						},
 						{
 							"_type": "UMLDependency",
-							"_id": "AAAAAAF83jmyrp8/DHA=",
+							"_id": "AAAAAAF9PhXT5d0wlXo=",
 							"_parent": {
 								"$ref": "AAAAAAF8w+19LAEpiu8="
 							},
@@ -3308,6 +3359,19 @@
 							"target": {
 								"$ref": "AAAAAAF83ha1aVjXYg0="
 							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAF9Phza1uMOBs4=",
+							"_parent": {
+								"$ref": "AAAAAAF8xA5+SzZnvVA="
+							},
+							"source": {
+								"$ref": "AAAAAAF8xA5+SzZnvVA="
+							},
+							"target": {
+								"$ref": "AAAAAAF8w+19LAEpiu8="
+							}
 						}
 					],
 					"documentation": "Esta classe representa a entidade do operador.\n\nMétodos:\n\n- Abastecer(): Ato do operador abastecer algum componente envolvido no sistema.\n\n- AlterarValoresEntrega(): Ato do operador de modificar o  valor de entrega máximo/mínimo  de algum componente envolvido no sistema.\n\n- AlterarVazão(): Ato do operador de modificar o valor máximo/mínimo de vazão de algum componente envolvido no sistema.\n\n- AprovarAlterações(): Ato do operador de aprovar o relatório com as alterações informadas\n\n- CadastrarNívelSubstâncias(): Ato do operador de cadastrar o nível final das substâncias.\n\n- VerificarNívelSubstâncias(): Ato do operador de verificar o nível final das substâncias\n\n- AbrirVálvulas(): Ato do operador de abrir as válvulas.",
@@ -3359,6 +3423,14 @@
 								"$ref": "AAAAAAF8xA5+SzZnvVA="
 							},
 							"name": "VerificarNívelSubstâncias"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF9PhumneL3eKA=",
+							"_parent": {
+								"$ref": "AAAAAAF8xA5+SzZnvVA="
+							},
+							"name": "VerificarNivelEntregas"
 						},
 						{
 							"_type": "UMLOperation",
@@ -3813,6 +3885,22 @@
 								"$ref": "AAAAAAF83ha1aVjXYg0="
 							},
 							"name": "AprovarRelatório"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF9Phr6rt1B8+0=",
+							"_parent": {
+								"$ref": "AAAAAAF83ha1aVjXYg0="
+							},
+							"name": "VerificarNívelSubstâncias"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF9PhwJ3eL/ju0=",
+							"_parent": {
+								"$ref": "AAAAAAF83ha1aVjXYg0="
+							},
+							"name": "VerificarNivelEntregas"
 						}
 					]
 				}
@@ -9479,9 +9567,9 @@
 												"$ref": "AAAAAAF86BuHk8zbD7Y="
 											},
 											"font": "Arial;13;0",
-											"left": 80.72998046875,
+											"left": 78.55908203125,
 											"top": 21,
-											"width": 73.97900390625,
+											"width": 66.70458984375,
 											"height": 13,
 											"text": "OperadorSD"
 										},
@@ -9494,7 +9582,7 @@
 											"font": "Arial;13;1",
 											"left": 61,
 											"top": 21,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -14945,9 +15033,9 @@
 														"$ref": "AAAAAAF9MEvsvaF/HO8="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 5,
-													"width": 73.97900390625,
+													"width": 66.70458984375,
 													"height": 13,
 													"text": "OperadorSD"
 												},
@@ -14960,7 +15048,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -38084,9 +38172,9 @@
 														"$ref": "AAAAAAF9MGhVkqnNPPc="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 127.93408203125,
+													"width": 117.21923828125,
 													"height": 13,
 													"text": "AlterarValoresEntrega"
 												},
@@ -38099,7 +38187,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -38918,9 +39006,9 @@
 														"$ref": "AAAAAAF9MKF+q6ufEqQ="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 118.29833984375,
+													"width": 108.5546875,
 													"height": 13,
 													"text": "AlterarValoresVazao"
 												},
@@ -38933,7 +39021,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -39752,9 +39840,9 @@
 														"$ref": "AAAAAAF9MK1Aq64DpdQ="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 107.93896484375,
+													"width": 99.896484375,
 													"height": 13,
 													"text": "AprovarAlterações"
 												},
@@ -39767,7 +39855,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -40485,9 +40573,9 @@
 														"$ref": "AAAAAAF9MMiBeMVBNN4="
 													},
 													"font": "Arial;13;0",
-													"left": 369.1708984375,
+													"left": 368.42822265625,
 													"top": 125,
-													"width": 138.8291015625,
+													"width": 139.57177734375,
 													"height": 13,
 													"text": "VerificarEntregas"
 												},
@@ -40500,7 +40588,7 @@
 													"font": "Arial;13;1",
 													"left": 333,
 													"top": 125,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -40537,9 +40625,9 @@
 														"$ref": "AAAAAAF9MMjCD8VS1rs="
 													},
 													"font": "Arial;13;0",
-													"left": 369.1708984375,
+													"left": 368.42822265625,
 													"top": 181,
-													"width": 138.67529296875,
+													"width": 139.41796875,
 													"height": 13,
 													"text": "VerificarNivelSubstancias"
 												},
@@ -40552,7 +40640,7 @@
 													"font": "Arial;13;1",
 													"left": 333,
 													"top": 181,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -40719,9 +40807,9 @@
 														"$ref": "AAAAAAF9MK/Bc7VfA5c="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 99.99169921875,
+													"width": 91.94921875,
 													"height": 13,
 													"text": "VerificarEntregas"
 												},
@@ -40734,7 +40822,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -41553,9 +41641,9 @@
 														"$ref": "AAAAAAF9MLPjM7ZT3ug="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 147.67529296875,
+													"width": 136.73193359375,
 													"height": 13,
 													"text": "VerificarNivelSubstancias"
 												},
@@ -41568,7 +41656,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -42387,9 +42475,9 @@
 														"$ref": "AAAAAAF9MLVHfMQn/fI="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 5,
-													"width": 110.103515625,
+													"width": 99.8837890625,
 													"height": 13,
 													"text": "RealizarAlteracoes"
 												},
@@ -42402,7 +42490,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -42785,9 +42873,9 @@
 														"$ref": "AAAAAAF9MMZvN8Uc784="
 													},
 													"font": "Arial;13;0",
-													"left": 497.1708984375,
+													"left": 496.42822265625,
 													"top": 229,
-													"width": 146.8291015625,
+													"width": 147.57177734375,
 													"height": 13,
 													"text": "AlterarValoresEntrega"
 												},
@@ -42800,7 +42888,7 @@
 													"font": "Arial;13;1",
 													"left": 461,
 													"top": 229,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -42837,9 +42925,9 @@
 														"$ref": "AAAAAAF9MMapR8Uq8I0="
 													},
 													"font": "Arial;13;0",
-													"left": 497.1708984375,
+													"left": 496.42822265625,
 													"top": 325,
-													"width": 138.8291015625,
+													"width": 139.57177734375,
 													"height": 13,
 													"text": "AlterarValoresVazao"
 												},
@@ -42852,7 +42940,7 @@
 													"font": "Arial;13;1",
 													"left": 461,
 													"top": 325,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -42889,9 +42977,9 @@
 														"$ref": "AAAAAAF9MMqNGMVnIcA="
 													},
 													"font": "Arial;13;0",
-													"left": 497.1708984375,
+													"left": 496.42822265625,
 													"top": 421,
-													"width": 140.8291015625,
+													"width": 141.57177734375,
 													"height": 13,
 													"text": "AprovarAlterações"
 												},
@@ -42904,7 +42992,7 @@
 													"font": "Arial;13;1",
 													"left": 461,
 													"top": 421,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -43071,9 +43159,9 @@
 														"$ref": "AAAAAAF9MM1WS8V3GqM="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 153.46435546875,
+													"width": 137.474609375,
 													"height": 13,
 													"text": "CadastroNivelSubstancias"
 												},
@@ -43086,7 +43174,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -43905,9 +43993,9 @@
 														"$ref": "AAAAAAF9MNWMo9SZ0cY="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 76.61962890625,
+													"width": 73.92822265625,
 													"height": 13,
 													"text": "AbrirValvulas"
 												},
@@ -43920,7 +44008,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -44739,9 +44827,9 @@
 														"$ref": "AAAAAAF9MNbyKtUJaRE="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 102.181640625,
+													"width": 91.04150390625,
 													"height": 13,
 													"text": "AbastecerTanque"
 												},
@@ -44754,7 +44842,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -45593,9 +45681,9 @@
 														"$ref": "AAAAAAF9MPaEMOCrZow="
 													},
 													"font": "Arial;13;0",
-													"left": 953.1708984375,
+													"left": 952.42822265625,
 													"top": 357,
-													"width": 162.4853515625,
+													"width": 163.22802734375,
 													"height": 13,
 													"text": "LiberarReator"
 												},
@@ -45608,7 +45696,7 @@
 													"font": "Arial;13;1",
 													"left": 917,
 													"top": 357,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -45645,9 +45733,9 @@
 														"$ref": "AAAAAAF9MQOIQeNDx/Q="
 													},
 													"font": "Arial;13;0",
-													"left": 457.1708984375,
+													"left": 456.42822265625,
 													"top": 157,
-													"width": 67.61962890625,
+													"width": 68.3623046875,
 													"height": 13,
 													"text": "AbrirValvulas"
 												},
@@ -45660,7 +45748,7 @@
 													"font": "Arial;13;1",
 													"left": 421,
 													"top": 157,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -45960,9 +46048,9 @@
 														"$ref": "AAAAAAF9MOVRctX9h6w="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 80.4853515625,
+													"width": 73.90283203125,
 													"height": 13,
 													"text": "LiberarReator"
 												},
@@ -45975,7 +46063,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -46920,9 +47008,9 @@
 														"$ref": "AAAAAAF9MQWs+OOc2X0="
 													},
 													"font": "Arial;13;0",
-													"left": 345.1708984375,
+													"left": 344.42822265625,
 													"top": 117,
-													"width": 114.8291015625,
+													"width": 115.57177734375,
 													"height": 13,
 													"text": "AbrirValvulas"
 												},
@@ -46935,7 +47023,7 @@
 													"font": "Arial;13;1",
 													"left": 309,
 													"top": 117,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -47093,9 +47181,9 @@
 														"$ref": "AAAAAAF9MQceoOQI7Es="
 													},
 													"font": "Arial;13;0",
-													"left": 529.1708984375,
+													"left": 528.42822265625,
 													"top": 181,
-													"width": 93.181640625,
+													"width": 93.92431640625,
 													"height": 13,
 													"text": "AbastecerTanque"
 												},
@@ -47108,7 +47196,7 @@
 													"font": "Arial;13;1",
 													"left": 493,
 													"top": 181,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -47145,9 +47233,9 @@
 														"$ref": "AAAAAAF9MQibcORKJGI="
 													},
 													"font": "Arial;13;0",
-													"left": 737.1708984375,
+													"left": 736.42822265625,
 													"top": 237,
-													"width": 71.4853515625,
+													"width": 72.22802734375,
 													"height": 13,
 													"text": "LiberarReator"
 												},
@@ -47160,7 +47248,7 @@
 													"font": "Arial;13;1",
 													"left": 701,
 													"top": 237,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -47407,9 +47495,9 @@
 														"$ref": "AAAAAAF9MOgjC9cNBs8="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 120.9580078125,
+													"width": 107.8310546875,
 													"height": 13,
 													"text": "ConectarDecantador"
 												},
@@ -47422,7 +47510,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -48260,9 +48348,9 @@
 														"$ref": "AAAAAAF9NEjnmOWX0rE="
 													},
 													"font": "Arial;13;0",
-													"left": 433.1708984375,
+													"left": 432.42822265625,
 													"top": 133,
-													"width": 250.8291015625,
+													"width": 251.57177734375,
 													"height": 13,
 													"text": "LiberarReator"
 												},
@@ -48275,7 +48363,7 @@
 													"font": "Arial;13;1",
 													"left": 397,
 													"top": 133,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -50062,9 +50150,9 @@
 														"$ref": "AAAAAAF9MO2RZNfWab4="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 113.0107421875,
+													"width": 101.3310546875,
 													"height": 13,
 													"text": "AbastecerLavagem"
 												},
@@ -50077,7 +50165,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -50460,9 +50548,9 @@
 														"$ref": "AAAAAAF9NGB8F+bLd/Q="
 													},
 													"font": "Arial;13;0",
-													"left": 345.1708984375,
+													"left": 344.42822265625,
 													"top": 181,
-													"width": 186.8291015625,
+													"width": 187.57177734375,
 													"height": 13,
 													"text": "AbrirValvulas"
 												},
@@ -50475,7 +50563,7 @@
 													"font": "Arial;13;1",
 													"left": 309,
 													"top": 181,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -50859,7 +50947,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9MGhVkqnK8HU="
 							},
-							"name": "Role28"
+							"name": "Role28",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -51003,9 +51092,9 @@
 														"$ref": "AAAAAAF9NHkYovLSnqU="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 107.93896484375,
+													"width": 99.896484375,
 													"height": 13,
 													"text": "AprovarAlterações"
 												},
@@ -51018,7 +51107,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -51403,9 +51492,9 @@
 														"$ref": "AAAAAAF9NJTNYfy+ZZs="
 													},
 													"font": "Arial;13;0",
-													"left": 537.1708984375,
+													"left": 536.42822265625,
 													"top": 149,
-													"width": 138.8291015625,
+													"width": 139.57177734375,
 													"height": 13,
 													"text": "VerificarEntregas"
 												},
@@ -51418,7 +51507,7 @@
 													"font": "Arial;13;1",
 													"left": 501,
 													"top": 149,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -51455,9 +51544,9 @@
 														"$ref": "AAAAAAF9NJU8AfzQKEo="
 													},
 													"font": "Arial;13;0",
-													"left": 537.1708984375,
+													"left": 536.42822265625,
 													"top": 237,
-													"width": 138.67529296875,
+													"width": 139.41796875,
 													"height": 13,
 													"text": "VerificarNivelSubstancias"
 												},
@@ -51470,7 +51559,7 @@
 													"font": "Arial;13;1",
 													"left": 501,
 													"top": 237,
-													"width": 16.1708984375,
+													"width": 15.42822265625,
 													"height": 13,
 													"text": "ref"
 												}
@@ -52097,9 +52186,9 @@
 														"$ref": "AAAAAAF9NI5gS/qRM3k="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 99.99169921875,
+													"width": 91.94921875,
 													"height": 13,
 													"text": "VerificarEntregas"
 												},
@@ -52112,7 +52201,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -52925,9 +53014,9 @@
 														"$ref": "AAAAAAF9NJCIbPtK1ew="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 147.67529296875,
+													"width": 136.73193359375,
 													"height": 13,
 													"text": "VerificarNivelSubstancias"
 												},
@@ -52940,7 +53029,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
