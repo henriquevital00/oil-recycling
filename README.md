@@ -22,7 +22,7 @@ This project is the implementation of use case, class, sequence, state, activiti
 
 <!-- DOCUMENTATION -->
 ## 📖 Documentation
-You can read the code documentation here:   
+You can read the documentation here:   
 
 <a href="https://henriquevital00.github.io/oil-recycling/" target="_blank">
   <img alt="a" src="https://img.shields.io/badge/read-documentation-blue?style=for-the-badge">
