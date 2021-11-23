@@ -20,6 +20,14 @@ This project is the implementation of use case, class, sequence, state, activiti
 
 ![app](https://github.com/henriquevital00/oil-recycling/blob/main/images/case.png)
 
+<!-- DOCUMENTATION -->
+## 📖 Documentation
+You can read the code documentation here:   
+
+<a href="https://henriquevital00.github.io/oil-recycling/" target="_blank">
+  <img alt="a" src="https://img.shields.io/badge/read-documentation-blue?style=for-the-badge">
+</a>
+
 <!-- HOW TO RUN -->
 ## 🚀 How To Run
 
