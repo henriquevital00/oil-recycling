@@ -25,7 +25,7 @@ This project is the implementation of use case, class, sequence, state, activiti
 
 In order to run the project, follow the steps below:
 
-1- Download [StarUmal](https://staruml.io/)
+1- Download [StarUML](https://staruml.io/)
 
 2- Open the [Projeto.mdj](https://github.com/henriquevital00/oil-recycling/blob/main/Projeto.mdj)
 
