@@ -18,31 +18,16 @@
 This project is the implementation of use case, class, sequence, state, activities and components diagrams of the problem below.
 
 
-
+![app](https://github.com/henriquevital00/oil-recycling/blob/main/images/case.png)
 
 <!-- HOW TO RUN -->
 ## 🚀 How To Run
 
-```bash
+In order to run the project, follow the steps below:
 
-# Clone the repository
-$ git clone https://github.com/henriquevital00/simulation-cpu.git
+1- Download [StarUmal](https://staruml.io/)
 
-# Access the project folder in your terminal / cmd
-$ cd simulation-cpu
-
-# You need to install the compiler
-$ sudo apt-get install gcc
-
-# Compile project
-$ gcc -o main source/*.c main.c
-
-# In both Windows and Linux, the execution is done by executing the following lines in the terminal, or using an IDE of your choice.
-
-# Execute the binary
-$ ./main
-
-```
+2- Open the [Projeto.mdj](https://github.com/henriquevital00/oil-recycling/blob/main/Projeto.mdj)
 
 ## 🤖 Authors
 
